@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="common/reset.css">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap');</style>
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Design House Renovations</title>
+</head>
+<body>
+  <header id="pagetop"><h1>Design House Renovations</h1>
+    <nav class="gMenu">
+
+      <input class="menu-btn" type="checkbox" id="menu-btn">
+      <label class="menu-icon" for="menu-btn">
+        <span class="navicon"></span>
+      </label>
+
+      <ul class="menu">
+        <li><a href="#concept">コンセプト</a></li>
+        <li><a href="#survice">サービス</a></li>
+        <li><a href="#flow">施工の流れ</a></li>
+        <li><a href="#QA">よくあるご質問</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+  </ul></nav></header>
+  <main>
+    <div class="heroArea">
+      <img src="images/MaskGroup.png" class="hero" alt="椅子と机のある風景">
+
+      <img src="images/hero.png" class="SPHero" alt="椅子と机のある風景2">
+    </div>
+    <section class="cont-1" id="concept"><h2>concept</h2><h3>コンセプト</h3><h4>家族が笑顔になれる場所</h4>
+    <p>家族が集う、温かく居心地の良い空間づくりを目指して、幅広い年代の方に安心して過ごしていただける空間づくりや、お手入れのしやすい素材を使用したリフォームをご提案いたします。</p>
+        </section>
+        <section class="cont-2" id="survice"><h2>service</h2><h3>サービス</h3>
+          <dl>
+            <a href="#">
+          <dt><img src="images/list-1-img.png" alt="浴室"><br>浴室</dt>
+          <dd class="dlText">ご家族が一緒に入れる広めの浴槽や手すり等、安全性に配慮しています。</dd>
+          <div class="dlMore">more▶</div>
+            </a>
+          
+           <a href="#">
+          <dt><img src="images/list-2-img.png"  alt="リビング"><br>リビング</dt>
+          <dd class="dlText">照明や家具の配置等、くつろぎやすい空間づくりを大切にしています。</dd>
+          <div class="dlMore">more▶</div>
+           </a>
+           <a href="#">
+          <dt><img src="images/list-3-img.png" alt="キッチン"><br>キッチン</dt>
+          <dd class="dlText">機能性だけでなく、デザイン性にもこだわっております。</dd>
+          <div class="dlMore">more▶</div>
+           </a>
+        </dl></section>
+        <section class="cont-3" id="flow">
+          <h2>flow</h2><h3>施工の流れ</h3>
+          <ol>
+            <li><span>ご相談</span></li>
+            <li><span class="letter4">現地調査</span></li>
+            <li><span class="letter4">お見積り</span></li>
+            <li><span>ご契約</span></li>
+            <li><span class="letter2">施工</span></li>
+            <li><span class="letter4">お引渡し</span></li>
+          </ol>
+        </section>
+        <section class="cont-4" id="QA">
+          <h2>Q &amp; A</h2><h3>よくあるご質問</h3>
+          <p class="QA-1"><div class="Q-1"><span>&nbsp;Q.</span>見積もりは無料ですか？</div><div class="A-1"><span>&nbsp;A.</span>はい。お見積りは無料で承っております。ホームページよりお気軽にお問い合わせください。</div></p>
+          <p class="QA-2"><div class="Q-2"><span>&nbsp;Q.</span>普段通り生活をしながらのリフォーム工事は可能ですか？</div><div class="A-2"><span>&nbsp;A.</span><div class="indent">はい。もちろん可能です。工事中の箇所は、何日間か使用できなくなる場合もございますのであらかじめご了承ください。大型リフォームの場合には、仮住まいもお薦めしております。</div></div></p>
+        </section>
+        <section class="cont-5" id="contact">
+          <h2>contact</h2><h3>お問い合わせ</h3>
+          <form class="form" action="" method="post">
+          <div><span class="th">お問い合わせ種別<span class="need">必須</span></span><span class="td, smallfont"><input  class="kindOf" name="kindOf" type="radio">資料請求<input class="kindOf" name="kindOf" type="radio">ご相談</span></div>
+          <div><span class="th">お名前<span class="need">必須</span></span><span class="td"><input name="name" size="26" type="text"></span></div>
+          <div><span class="th">フリガナ<span class="need">必須</span></span><span class="td"><input name="kanaName" size="26" type="text"></span></div>
+          <div><span class="th">電話番号<span class="need">必須</span></span><span class="td"><input name="telNum" size="26" type="text"></span></div>
+          <div><span class="th">住所<span class="need">必須</span></span><span class="td">〒<input class="addressNum" size="15" name="addressNum" type="text"><input name="addless" size="53" type="text"></span></div>
+          <div><span class="th">メールアドレス<span class="need">必須</span></span><span class="td"><input name="email" size="53" type="email"></span></div>
+          <div><span class="th">メールアドレス(確認用)<span class="need">必須</span></span><span class="td"><input name="emailConfirm" size="53" type="email"></span></div>
+          <div><span class="th">お問い合わせ内容</span><span class="td,textarea"><textarea></textarea></span></div>
+            <input class="button" type="submit" value="入力内容を確認する▶">
+            </form>
+          </section>
+          <p class="bottomButtun">
+          <a href="#pagetop"><span></span></a>
+          </p>
+          
+  </main>
+  <footer><p><small>&copy; 2023 Design House Renovations</small></p></footer>
+</body>
+</html>
