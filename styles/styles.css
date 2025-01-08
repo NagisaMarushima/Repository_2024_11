@@ -1,0 +1,1103 @@
+@charset "utf-8";
+body{
+  font-family: 'Noto Sans JP',sans-serif;
+  color: #333333;
+}
+
+header{
+  max-width: 100%;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav{
+  font-family: 'Noto Serif JP',serif;
+}
+
+h1{
+  color: #b71b26;
+  margin: 0;
+
+  font-weight: bold;
+  font-style: oblique;
+}
+
+/* チェックボックスは常に非表示です */
+.gMenu .menu-btn {
+  display: none;
+}
+
+
+nav ul{
+  display: flex;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 0 20px;
+}
+
+main{
+  margin: 0 auto;
+  text-align: center;
+}
+/* 
+.heroArea{
+  position: relative;
+} */
+
+.hero{
+  height: auto;
+  max-width: 100%;
+  /* z-index: 2; */
+}
+
+.SPHero{
+
+  display: none;
+  /* z-index: -2; */
+}
+
+/* main::before{
+  content: '';
+  width: 100%;
+  background: url(../images/MaskGroup.png) no-repeat center/cover;
+
+サイズ調整入れる
+} */
+
+section{
+  margin: 160px 173px;
+}
+
+h2{
+  font-family: 'Noto Serif JP',serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 42px;
+  margin-bottom: 16px;
+}
+
+.cont-3 h2,.cont-5 h2{
+  padding-top: 48px;
+}
+
+h3{
+  font-family: 'Noto Serif JP',serif;
+  margin-bottom: 48px;
+}
+/* vertical-align: middle; */
+
+
+h3::before,
+h3::after{
+  content: "―――";
+  vertical-align: middle;
+}
+
+
+.cont-1 h4{
+  font-family: 'Noto Serif JP',serif;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: .1em;
+  margin-bottom: 24px;
+}
+
+.cont-1 p{
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: .1em;
+  line-height: 2;
+}
+
+.cont-2 dl{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont-2 img{
+  margin-bottom: 16px;
+}
+
+.cont-2 dt{
+  font-family: 'Noto Serif JP',serif;
+  font-size: 24px;
+  letter-spacing: .1em;
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.dlText{
+  width:300px;
+  height: 48px;
+  font-size: 16px;
+  letter-spacing: .1em;
+  line-height: 2;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.dlMore{
+  padding-top: 16px;
+  text-align: right;
+  font-size: 16px;
+  letter-spacing: .1em;
+}
+
+
+.cont-2 a:hover{
+  opacity: .8;
+}
+
+
+
+.cont-3 h3{
+  color: #b71b26;
+}
+
+.cont-3{
+  background-color: rgba(34,62,105,.05);
+  max-width: 100%;
+  margin: 0;
+  padding-bottom:48px;
+  /* わかんね */
+}
+
+.cont-3 ol{
+
+  margin: 0 223px;
+  display: flex;
+  width: 920px;
+  max-width: 100%;
+  height: 280px;
+  max-height: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.cont-3 ol li{
+  position: relative;
+  height: 280px;
+  width: 60px;
+  border-radius: 30px;
+  background-color: #333333;
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+.cont-3 ol li:not(:last-child)::before{
+  position: absolute;
+  content: url(../images/arrow.png);
+  margin: 110px 101px 110px;
+}
+
+
+.cont-3 ol li span{
+  display: inline-block;
+  height: 280px;
+  width: 60px;
+  padding: 97px 16px;
+  font-size: 28px;
+  /* letter-spacing: .1em; */
+}
+
+.cont-3 ol li .letter4{
+  padding: 83px 16px;
+}
+
+.cont-3 ol li .letter2{
+  padding: 112px 16px;
+}
+
+
+
+.cont-4>div{
+  font-family: 'Noto Sans JP',sans-serif;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 16px;
+  letter-spacing: .1em;
+}
+
+.Q-1 span, .Q-2 span,.A-1 span,.A-2 span{
+  display: inline-block;
+  border-radius: 50%;
+  height: 52px;
+  width: 52px;
+  font-family: 'Noto Serif JP',serif;
+  font-weight: bold;
+  font-size: 34px;
+  color: #ffffff;
+  text-align: center;
+  margin-right: 14px;
+}
+
+.Q-1 span,.Q-2 span{
+  background-color: #333333;
+}
+
+.A-1 span,.A-2 span{
+  background-color: #b71b26;
+}
+
+.A-1{
+padding-bottom: 48px;
+}
+
+.A-2 span{
+  vertical-align: top;
+}
+
+
+.indent{
+  display: inline-block;
+  max-width: 930px;
+}
+
+
+.cont-5{
+  height: 1218px;
+  max-height: auto;
+  margin: 0;
+  max-width: 100%;
+  max-height: auto;
+  background-color: rgba(34,62,105,.05);
+  text-align: center;
+}
+
+
+.cont-5 form{
+  width: 1020px;
+  max-width: 100%;
+  height: 1000px;
+  max-height: auto;
+  display: block;
+  background-color: rgba(255,255,255,.5);
+  margin: 48px 173px;
+
+}
+
+.cont-5 div{
+  display: block;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: .1em;
+  line-height: 2.6;
+}
+
+.th,.td{
+  display: inline-block;
+}
+
+.th{
+  width: 310px;
+  max-width: 100%;
+  text-align: right;
+  padding:6px ;
+}
+
+
+.td{
+  width:710px;
+  max-width: 100%;
+  text-align: left;
+  padding-right:6px;
+}
+
+.cont-5 div:first-child{
+  display:flex;
+}
+/* 
+.cont-5 div .smallfont{
+  display: block;
+  max-width: 710px;
+} */
+
+
+.cont-5 div input{
+  background-color: #ffffff;
+  height: 52px;
+}
+
+
+.addressNum{
+  max-width: 222px;
+}
+
+.cont-5 div .adress{
+  max-width: 664px;
+}
+
+
+textarea{
+  background-color: #ffffff;
+  width: 664px;
+  height: 208px;
+  margin-right: 37px;
+  resize: none;
+}
+/* 
+.cont-5 div:nth-child(6) input{
+  max-width: 664px;
+} */
+
+.cont-5 div:nth-child(5){
+  display: flex;
+}
+
+.cont-5 div .td .addressNum{
+
+  margin-bottom: 24px;
+}
+
+
+[type='radio']:last-child{
+  margin-left: 40px;
+}
+
+[type='radio']{
+  inline-size: 24px;
+  block-size: 24px;
+  border: none;
+}
+
+.cont-5 .need{
+  display: inline-block;
+  text-align: center;
+  width: 58px;
+  height: 24px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: .1em;
+  background-color: #B71B26;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.cont-5 .button{
+  display: inline-block;
+  width: 300px;
+  height: 68px;
+  background-color: #333333;
+  color: #ffffff;
+  font-family: 'Noto Sans JP',sans-serif;
+  letter-spacing: .08em;
+  line-height: 4;
+  margin-top: 48px;
+  margin-bottom: 173px;
+}
+
+
+.cont-5 .button:hover{
+  opacity: .8;
+}
+
+
+.bottomButtun{
+  position: relative;
+  height:219px;
+  
+}
+
+.bottomButtun a{
+
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  padding: 20px 10px;
+  background-color: #333333;
+  color: #ffffff;
+ right: 24px;
+ bottom: 0;
+ text-align: center;
+}
+
+.bottomButtun a span{
+  content: url(../images/arrowP.png);
+  width: 40px;
+  height: 20px;
+  
+}
+
+
+
+footer{
+  background-color: #333333;
+  color:#ffffff;
+  text-align: center;
+  margin: 0 auto;
+  padding: 24px 0;
+}
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* 課題
+コンテンツ３の微調整（文字数ごと）
+コンテンツ５のインプット枠の微調整
+5の背景色の微調整
+ヒーローのバーはみだし */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:748px) {
+
+section{
+  margin: 48px 12px 32px;
+}
+
+h1{
+  font-size: 19px;
+}
+
+header{
+  padding: 16px;
+}
+
+h2{
+  font-size: 28px;
+}
+
+.cont-1{
+  margin-bottom: 80px;
+}
+
+.cont-3{
+  padding-bottom:16px;
+}
+
+.cont-4{
+  margin-top: 80px;
+}
+
+/* .cont-3 section:last-child{
+  margin-bottom: 0;
+} */
+
+.cont-3 h2,.cont-5 h2{
+  padding-top: 16px;
+  margin-bottom: 8px;
+}
+
+h3{
+  font-size: 12px;
+  margin-bottom: 24px;
+}
+
+h4,.cont-2 dt{
+  font-size: 20px;
+}
+
+.cont-1 p,.cont-2 dd{
+  font-size: 14px;
+}
+/* 
+.cont-2{
+  margin: 0 0 80px;
+} */
+
+.cont-2 img{
+  transform: scale(1.166,1.166);
+  margin-bottom: 24px;
+}
+
+.cont-2 .dlText{
+  text-align: left;
+margin-bottom: 0;
+width: 351px;
+line-height: 1.5;
+}
+.cont-2 .dlMore{
+margin-bottom: 48px;
+padding: 0;
+}
+.cont-2{
+margin: 0 0 32px;
+}	
+
+
+
+
+
+.cont-3 ol{
+  margin: 0;
+  writing-mode: vertical-lr;
+  width: 100%;
+  height: 352px;
+}
+
+.cont-4>div{
+  display: block;
+  font-size: 16px;
+  clear:left ;
+  margin-bottom: 16px;
+  line-height: 1.5;
+  /* 効いてない！ */
+}
+
+
+.Q-1 span,.Q-2 span,.A-1 span,.A-2 span{
+  font-size: 20px;
+  height: 36px;
+  width: 36px;
+  vertical-align: bottom;
+  float: left;
+}
+
+.Q-1 span{
+  margin-bottom: 16px;
+}
+
+.Q-2 span{
+  margin-bottom: 28px;
+}
+
+.A-1 span{
+  margin-bottom: 68px;
+}
+
+.A-1{
+  padding-bottom: 0;
+  }
+
+.A-2 span{
+  margin-bottom: 90px;
+}
+
+.cont-5 form,textarea{
+  width:100%;
+}
+
+.indent{
+  display: inline;
+  max-width: inherit;
+}
+
+.cont-5{
+  background-color:  rgba(34,62,105,.15);
+  height: auto;
+
+}
+
+.cont-5 form{
+  margin: 0;
+  background-color:  rgba(255,255,255,0);
+  height: auto;
+}
+
+main,.td,.th{
+  width: 100%;
+}
+
+.cont-2 dl{
+  display: inline-block;
+}
+
+main{
+  width:auto;
+}
+
+/* main::before{
+  display: none;
+}
+
+section::before{
+  content: "";
+  display: block;
+  background: url(../images/hero.png) no-repeat center/cover;
+} */
+
+
+.hero{
+  display: none;
+  /* position: absolute;
+  z-index: -2; */
+}
+
+.SPHero{
+  display:inline-block;
+  width: 100%;
+  /* position: static;
+  width: 100%; */
+}
+
+
+
+.cont-2 .dlMore{
+  font-size: 14px;
+}
+
+
+
+.cont-3 ol li:not(:last-child)::before{
+  display: none;
+}
+
+.cont-3 ol li:not(:last-child):after{
+  position: absolute;
+  content: url(../images/SParrow.png);
+  margin: 24px -166px;
+}
+
+.cont-3 ol li{
+
+  width: 300px;
+  height: 32px;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.cont-3 ol li span{
+  font-size: 16px;
+  padding: 0;
+  display: block;
+  writing-mode: horizontal-tb;
+  width: 300px;
+  height: 32px;
+  line-height: 2;
+  letter-spacing: .1;
+}
+
+
+.cont-3 ol li .letter4{
+  padding: 0;
+}
+
+.cont-3 ol li .letter2{
+  padding: 0;
+}
+
+
+.cont-4{
+  margin-bottom: 64px;
+}
+
+
+
+.th,.td{
+  text-align: center;
+  padding:0;
+}
+
+.th{
+  font-size: 16px;
+  height:18px;
+  margin-bottom: 8px ;
+}
+
+.td{
+  height: 30px;
+  margin: 0;
+}
+
+.cont-5 div{
+  /* display: flex; */
+  margin: 0 12px 24px;
+  flex-wrap: wrap;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.cont-5 div:first-child{
+  display: flex;
+  flex-direction: column;
+}
+
+.smallfont{
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.cont-5 div input{
+  height: 30px;
+  width: 100%;
+}
+/* 
+.cont-5 div:first-child{
+
+} */
+
+.cont-5 div .kindOf{
+  height: 16px;
+  width:16px;
+
+}
+
+.cont-5 div:first-child .th{
+  margin-bottom: 8px;
+}
+
+.cont-5 div:nth-child(5) .td {
+  text-align: left;
+}
+
+.cont-5 div:nth-child(5) {
+  padding-bottom: 40px;
+}
+
+.cont-5 div:last-child{
+  vertical-align:top;
+}
+
+.cont-5 div .td .addressNum{
+  text-align: left;
+  width:125px;
+  margin-bottom: 8px;
+}
+
+
+textarea{
+  height: 120px;
+  margin-right: inherit;
+}
+
+[type='radio']{
+  inline-size: 16px;
+  block-size: 16px;
+  border: none;
+}
+
+.cont-5 div span .textarea{
+  height: 144px;
+}
+
+.cont-5 .button{
+  margin-top: 0;
+  display: inline-block;
+  height:48px;
+  width: 200px;
+  /* margin-top: 24px; */
+  margin-bottom: 16px;
+  line-height: 3;
+}
+
+.cont-5 .need{
+  font-size: 10px;
+  width: 40px;
+  height: 18px;
+  border-radius: 8px;
+}
+
+
+
+
+
+.bottomButtun{
+  height:126px;
+  
+}
+
+
+
+.bottomButtun a{
+
+  width: 46px;
+  height: 46px;
+  padding: 16px 8px;
+
+ right: 12px;
+ bottom: 0;
+ text-align: center;
+}
+
+.bottomButtun a span{
+  content: url(../images/arrowSP.png);
+  width: 30px;
+  height: 15px;
+  
+}
+
+
+footer{
+  padding: 16px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* メニューを画面上部に固定表示しています */
+.gMenu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+/* メニューアイコンを画面右上に固定しています */
+.gMenu .menu-icon {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  padding-top: 13px;
+  height: 12px;
+}
+/* メニューアイコン（三本線）の真ん中の線です */
+.gMenu .menu-icon .navicon {
+  background: #B71B26; /* 色は自由に変更可能です */
+  display: block;
+  height: 2px; /* 太さ */
+  width: 31px; /* 長さ */
+  position: relative;
+  transition: background .4s ease-out; /* 形が変わる時のアニメーション */
+}
+/* メニューアイコン（三本線）の上と下の線を疑似要素で追加 */
+.gMenu .menu-icon .navicon::before,
+.gMenu .menu-icon .navicon::after {
+  background: #B71B26; /* 色は自由に変更可能です */
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .4s ease-out; /* 形が変わる時のアニメーション */
+  width: 100%;
+}
+.gMenu .menu-icon .navicon::before {top: 10px;} /* 位置を上にずらしています */
+.gMenu .menu-icon .navicon::after {top: -10px;} /* 位置を下にずらしています */
+/* 表示されるメニューです */
+.gMenu .menu {
+  background-color: rgba(255,255,255,0.9);
+  overflow: hidden;
+  max-height: 0; /* ★最初は高さを0にして非表示状態に */
+  transition: max-height .6s; /* 表示されるときのアニメーション */
+  text-align: center;
+}
+/* メニュー部分のデザインです */
+.gMenu .menu li:first-of-type {
+  padding-top: 50px;
+}
+.gMenu .menu li a {
+  display: block;
+  padding: 24px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.gMenu .menu li a:hover {
+  background-color: #f4f4f4;
+}
+/* チェックボックスは常に非表示です */
+.gMenu .menu-btn {
+  display: none;
+}
+/* ▼▼▼以下はチェックボックスがONの時の状態です▼▼▼ */
+.gMenu .menu-btn:checked ~ .menu {
+  max-height: 532px; /* ★チェックボックスがオンの時高さを338pxにして表示させます */
+  transition: max-height .6s;
+}
+/* メニューボタンの中央の線を非表示に */
+.gMenu .menu-btn:checked ~ .menu-icon .navicon {background: transparent;}
+
+/* メニューボタンの上下の線を45度傾けて✕印を作ります */
+.gMenu .menu-btn:checked ~ .menu-icon .navicon::before {transform: rotate(-36.51deg);top: 0;}
+.gMenu .menu-btn:checked ~ .menu-icon .navicon::after {transform: rotate(37.55deg);top: 0;}
+
+nav ul{
+  display:block;
+
+}
+
+header{
+  display: inline-block;
+}
+
+nav ul li{
+  display: block;
+  margin: 0 20px;
+  /* padding-bottom: 48px; */
+
+}
+nav ul li:last-child{
+  padding-bottom: 180px;
+}
+nav ul li::hover{
+  text-decoration: underline aqua;
+}
+}
+
+
+/* 直すポイント
+リンク後のマージンのずれ
+ラジオボタン*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:748px)and (max-width:1024px) {
+  
+
+
+
+/* cont-2から対応する */
+
+
+
+
+
+/* メニューを画面上部に固定表示しています */
+.gMenu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+/* メニューアイコンを画面右上に固定しています */
+.gMenu .menu-icon {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  padding-top: 13px;
+  height: 12px;
+}
+/* メニューアイコン（三本線）の真ん中の線です */
+.gMenu .menu-icon .navicon {
+  background: #B71B26; /* 色は自由に変更可能です */
+  display: block;
+  height: 2px; /* 太さ */
+  width: 31px; /* 長さ */
+  position: relative;
+  transition: background .4s ease-out; /* 形が変わる時のアニメーション */
+}
+/* メニューアイコン（三本線）の上と下の線を疑似要素で追加 */
+.gMenu .menu-icon .navicon::before,
+.gMenu .menu-icon .navicon::after {
+  background: #B71B26; /* 色は自由に変更可能です */
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .4s ease-out; /* 形が変わる時のアニメーション */
+  width: 100%;
+}
+.gMenu .menu-icon .navicon::before {top: 10px;} /* 位置を上にずらしています */
+.gMenu .menu-icon .navicon::after {top: -10px;} /* 位置を下にずらしています */
+/* 表示されるメニューです */
+.gMenu .menu {
+  background-color: rgba(255,255,255,0.9);
+  overflow: hidden;
+  max-height: 0; /* ★最初は高さを0にして非表示状態に */
+  transition: max-height .6s; /* 表示されるときのアニメーション */
+  text-align: center;
+}
+/* メニュー部分のデザインです */
+.gMenu .menu li:first-of-type {
+  padding-top: 50px;
+}
+.gMenu .menu li a {
+  display: block;
+  padding: 24px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.gMenu .menu li a:hover {
+  background-color: #f4f4f4;
+}
+/* チェックボックスは常に非表示です */
+.gMenu .menu-btn {
+  display: none;
+}
+/* ▼▼▼以下はチェックボックスがONの時の状態です▼▼▼ */
+.gMenu .menu-btn:checked ~ .menu {
+  max-height: 532px; /* ★チェックボックスがオンの時高さを338pxにして表示させます */
+  transition: max-height .6s;
+}
+/* メニューボタンの中央の線を非表示に */
+.gMenu .menu-btn:checked ~ .menu-icon .navicon {background: transparent;}
+
+/* メニューボタンの上下の線を45度傾けて✕印を作ります */
+.gMenu .menu-btn:checked ~ .menu-icon .navicon::before {transform: rotate(-36.51deg);top: 0;}
+.gMenu .menu-btn:checked ~ .menu-icon .navicon::after {transform: rotate(37.55deg);top: 0;}
+
+nav ul{
+  display:block;
+
+}
+
+header{
+  display: inline-block;
+}
+
+nav ul li{
+  display: block;
+  margin: 0 20px;
+  /* padding-bottom: 48px; */
+
+}
+nav ul li:last-child{
+  padding-bottom: 180px;
+}
+nav ul li::hover{
+  text-decoration: underline aqua;
+}
+}
